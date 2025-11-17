@@ -1,7 +1,7 @@
 
 .frame {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
   app-sidebar {
     width: 30%;
@@ -14,7 +14,7 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 7px 0px;
   }
   .list {
-    width: 80%;
+    width: 100%;
     flex-grow: 1000;
     overflow-y: auto;
     height: calc(100vh - 55px);
