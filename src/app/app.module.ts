@@ -37,6 +37,7 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslationLoader } from './services/localization/loader';
 import { AppRoutingModule } from './app-routing.module';
 import { InfoChipsComponent } from './components/info-chips/info-chips.component';
+import { FilterContainerComponent } from './filter-container/filter-container.component';
 
 export function initSettings(settings: SettingsService): () => Promise<void> {
   return () => settings.load();
@@ -47,6 +48,7 @@ export function initSettings(settings: SettingsService): () => Promise<void> {
     AppComponent,
     JobListComponent,
     SidebarComponent,
+    FilterContainerComponent,
     MainPageComponent,
     JobDetailsComponent,
     ApplyModalComponent,
