@@ -38,7 +38,9 @@
 
 </novo-list>
 <div class="load-more-button" *ngIf="!loading && moreAvailable">
-  <button theme="secondary" (click)="loadMore()" inverse>Load More</button>
+    <div class="load-more-jobs-btn" (click)="loadMore()">
+        <span>Load More Jobs</span>
+    </div>
 </div>
 <div class="empty-list" *ngIf="!loading && jobs.length === 0">
   <i class="bhi-search-question"></i>

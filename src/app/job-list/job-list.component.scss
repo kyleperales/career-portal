@@ -186,7 +186,25 @@ novo-list {
 }
 
 .load-more-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 10px 0;
-  background-color: #4f5361;
   text-align: center;
+  .load-more-jobs-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40px;
+    background-color: #0B344F;
+    margin-bottom: 20px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #2B8BCA;
+    }
+  }
 }
