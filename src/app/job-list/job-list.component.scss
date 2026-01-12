@@ -20,7 +20,7 @@ novo-list {
   .job-card {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    max-width: 500px;
     height: 270px;
     margin: 12px 12px;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, .1);
@@ -158,6 +158,7 @@ novo-list {
     }
     div.job-card{
       margin: 12px 15px;
+      max-width: 350px;
       novo-list-item {
         flex-direction: row;
         item-header-end {
